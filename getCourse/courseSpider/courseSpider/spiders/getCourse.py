@@ -8,7 +8,7 @@ class GetcourseSpider(scrapy.Spider):
     name = 'getCourse'
     allowed_domains = ['*']
     start_urls = ['http://buaa.edu.cn/']
-    jsession_id = "5573178E80185C400D5AFC51716DBBFB"
+    jsession_id = "C03C0DD512177E57D2538463815A8243"
 
     def start_requests(self):
         header = {
